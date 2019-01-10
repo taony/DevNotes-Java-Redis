@@ -1,4 +1,4 @@
-package com.devnotes.java.redis;
+package com.devnotes.redis;
 
 import static org.junit.Assert.assertTrue;
 
