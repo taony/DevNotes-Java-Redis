@@ -2,6 +2,7 @@ package com.devnotes.redis.dao;
 
 import com.devnotes.redis.entity.UserDO;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -13,6 +14,7 @@ import java.util.List;
  * @date: 2019-01-10 17:53
  */
 
+@Resource
 public interface UserDao {
 
     List<UserDO> getLists();
