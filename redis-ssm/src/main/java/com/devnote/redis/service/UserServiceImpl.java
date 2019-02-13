@@ -34,6 +34,7 @@ public class UserServiceImpl implements IUserService {
     @CacheEvict(value= "user",allEntries=true)//清空缓存，
     @Override
     public Integer add(User user) {
+
         return userDao.add(user);
     }
 }
